@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on darwin)" generated="20221008 11:07:46.465" rpa="false" schemaversion="3">
+<suite id="s1" name="Automation" source="/Users/vicky/myDocuments/Vivek/Automation">
+<suite id="s1-s1" name="TestCases" source="/Users/vicky/myDocuments/Vivek/Automation/TestCases">
+<suite id="s1-s1-s1" name="TC01" source="/Users/vicky/myDocuments/Vivek/Automation/TestCases/TC01.robot">
+<test id="s1-s1-s1-t1" name="LoginTest" line="8">
+<kw name="create webdriver chrome executable_path=&quot;/Users/vicky/myDocuments/Vivek/Drivers/chromedriver&quot;">
+<msg timestamp="20221008 11:07:46.493" level="FAIL">No keyword with name 'create webdriver chrome executable_path="/Users/vicky/myDocuments/Vivek/Drivers/chromedriver"' found.</msg>
+<status status="FAIL" starttime="20221008 11:07:46.493" endtime="20221008 11:07:46.493"/>
+</kw>
+<kw name="open browser">
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<status status="NOT RUN" starttime="20221008 11:07:46.495" endtime="20221008 11:07:46.495"/>
+</kw>
+<status status="FAIL" starttime="20221008 11:07:46.492" endtime="20221008 11:07:46.495">No keyword with name 'create webdriver chrome executable_path="/Users/vicky/myDocuments/Vivek/Drivers/chromedriver"' found.</status>
+</test>
+<status status="FAIL" starttime="20221008 11:07:46.489" endtime="20221008 11:07:46.496"/>
+</suite>
+<status status="FAIL" starttime="20221008 11:07:46.487" endtime="20221008 11:07:46.497"/>
+</suite>
+<status status="FAIL" starttime="20221008 11:07:46.468" endtime="20221008 11:07:46.498"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Automation">Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="TestCases">Automation.TestCases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="TC01">Automation.TestCases.TC01</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20221008 11:07:46.491" level="ERROR">Error in file '/Users/vicky/myDocuments/Vivek/Automation/TestCases/TC01.robot' on line 2: Importing library 'seleniumlibrary' failed: ModuleNotFoundError: No module named 'seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/vicky/myDocuments/Vivek/Automation
+  /Users/vicky/myDocuments/Vivek/Automation
+  /Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip
+  /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10
+  /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload
+  /Users/vicky/myDocuments/Vivek/Automation/venv/lib/python3.10/site-packages</msg>
+</errors>
+</robot>
